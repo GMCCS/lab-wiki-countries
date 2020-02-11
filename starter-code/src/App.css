@@ -2,6 +2,14 @@
   text-align: center;
 }
 
+.navbar {
+  background-color: #007bff;
+  ;
+  border: 1px solid grey;
+  color: white;
+  margin-bottom: 10px;
+}
+
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
@@ -26,32 +34,44 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
 
-/* .listCountries{
-  border: solid 0.5px grey;
-  color: blue
+.listGroup {
+  overflow: scroll;
 }
 
-.listCountries :hover{
-  background-color: blue;
-  color: white;
-} */
-
-.btn{
+.btn {
   border-radius: 0;
   border: solid 1px lightgray;
 
 }
 
-.btn:hover{
-  background-color: rgb(80,138,235);
+.btn:hover {
+  background-color: rgb(80, 138, 235);
   color: white;
 }
 
-.clearLinkStyle:hover{
+.clearLinkStyle:hover {
   text-decoration: none;
+
+}
+
+.detailsComp {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.detailsComp h2 {
+  border-bottom: 1px solid black;
+}
+
+.detailsComp h4 {
+  padding: 10px 0px;
+  border-bottom: 1px solid black;
+
 }
